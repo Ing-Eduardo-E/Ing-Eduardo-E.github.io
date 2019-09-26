@@ -1,10 +1,9 @@
 body {
     font-size: 16px;
     font-family: 'aldo', sans-serif;
-    background: #233D58;
+    background: #207561;
     position: relative;
 }
-
 
 canvas {
   display: block;
@@ -12,7 +11,6 @@ canvas {
 }
 
 /* ---- particles.js container ---- */
-
 #particles-js {
   position: absolute;
   width: 100%;
@@ -24,14 +22,13 @@ canvas {
   background-position: 50% 50%;
 }
 
-
-
 header{
 	height: 35px;
-	background: #233D58;
+	background: #207561;
 	width: 100%;
 	position: relative;
 }
+
 header h1{
 	display: none;
 }
@@ -46,12 +43,15 @@ header #next_section{
 	cursor: pointer;
 	overflow: hidden;
 }
+
 header #prev_section{
 	right: 35px;
 }
+
 header #next_section{
 	right: 5px;
 }
+
 header #prev_section img,
 header #next_section img{
 	width: 250%;
@@ -59,21 +59,24 @@ header #next_section img{
 	left: -19px;
 	position: relative;
 }
+
 header #next_section img{
 	transform: rotate(180deg);
 }
 
 header nav .ioMenuMovil{
 	line-height: 40px;
-	height: 25px; 
+	height: 25px;
 	margin: 0px 0px 0px 10px;
 	cursor: pointer;
 	width: 120px;
 	padding-top: 5px;
 }
+
 header nav .ioMenuMovil img{
 	height: 100%;
 }
+
 header nav #card_menu{
 	position: relative;
 	height: 100%;
@@ -114,7 +117,7 @@ header nav #card_menu ul li a{
 
 #contact_button{
 	border-radius: 50%;
-	background: #F8931F;
+	background: #da4302;
 	color: white;
 	position: fixed;
 	width: 60px;
@@ -134,9 +137,6 @@ header nav #card_menu ul li a{
 	left: -2px;
 	font-size: 3.9em;
 }
-
-
-
 
 #contact_form{
 	/*width: 90%;
@@ -184,18 +184,20 @@ header nav #card_menu ul li a{
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	background: #29abe2;
+	background: #a0cc78;
 	text-align: center;
 }
 #contact_form figure img{
 	margin: 0px;
 	height: 100%;
 }
+
 #contact_form p{
 	margin: 20px;
 	width: 90%;
 	margin-left: 5%;
 }
+
 #contact_form input,
 #contact_form textarea{
 	display: block;
@@ -208,15 +210,14 @@ header nav #card_menu ul li a{
 	font-weight: bold;
 	margin-bottom: 50px;
 }
+
 #contact_form #button{
 	padding: 8px 0px;
 	border-radius: 5px;
 	border: none;
-	background: #F8931F;
+	background: #da4302;
 	color: white;
 }
-
-
 
 #slider{
 	width: 100%;
@@ -225,13 +226,13 @@ header nav #card_menu ul li a{
 	margin-top: -66px;
 }
 
-
 #slider section.slide{
 	position: absolute;
 	width: 100%;
 	top: 0px;
 	left: 0px;
 }
+
 #slider #home .mainanimation{
 	background: none;
 	min-height: 300px;
@@ -247,6 +248,7 @@ header nav #card_menu ul li a{
 	text-align: center;
 	padding-bottom: 50px;
 }
+
 #slider #home .mainlogo{
 	width: 60vw;
 	margin-left: 20vw;
@@ -256,8 +258,9 @@ header nav #card_menu ul li a{
 	position: relative;
 	background: rgba(35,61,88,0.8);
 	background: none;
-	/* #233D58; */
+	/* #207561; */
 }
+
 #slider #home .mainlogo h2{
 	text-align: center;
 	font-size: 1.2em;
@@ -266,30 +269,36 @@ header nav #card_menu ul li a{
 	color: white;
 	font-weight: lighter;
 }
+
 #slider #home .mainlogo strong{
 	font-family: "aldo";
 	font-size: 2em;
 	display: block;
 }
+
 #slider #home .mainlogo figure,
 #slider #home .mainlogo figure img{
 	width: 100%;
 	margin:0px;
 }
+
 #slider #home .mainlogo figure{
 	/*top: 110px;*/
 	position: relative;
 	padding-bottom: 30px;
 }
+
 #slider #home .facepage{
 
 	/*background: yellow;*/
 }
+
 #slider #home .buttonspage{
 	width: 100%;
 	text-align: center;
 	position: relative;
 }
+
 #slider #home .buttonspage > *{
 	display: inline-block;
 	width: 40%;
@@ -298,12 +307,14 @@ header nav #card_menu ul li a{
 	color: white;
 	text-decoration: none;
 }
+
 #slider #home #contratame{
-	background: #F8931F;
+	background: #da4302;
 	cursor: pointer;
 }
+
 #slider #home a{
-	background: #29abe2;
+	background: #a0cc78;
 }
 
 
@@ -315,6 +326,7 @@ header nav #card_menu ul li a{
 	width: 100%;
 	margin-top: 0px;
 }
+
 #slider #aboutme .top_am figure{
 	width: 100%;
 	margin: 0px;
@@ -323,10 +335,12 @@ header nav #card_menu ul li a{
 	z-index: 5;
 	position: relative;
 }
+
 #slider #aboutme .top_am figure img{
 	width: 100%;
 	margin-top: -23%; /*-50px;*/
 }
+
 #slider #aboutme .top_am .text_am{
 	font-family: 'aller';
 	background: white;
@@ -336,10 +350,11 @@ header nav #card_menu ul li a{
 	z-index: 10;
 	position: relative;
 	box-shadow: 0px 0px 3px #AFAEAE;
-	padding-bottom: 30px; 
+	padding-bottom: 30px;
 }
+
 #slider #aboutme .top_am .text_am h2{
-	background: #29abe2;
+	background: #a0cc78;
 	color: white;
 	font-weight: lighter;
 	position: relative;
@@ -348,11 +363,12 @@ header nav #card_menu ul li a{
 	padding: 10px 20px;
 	top: -2px;
 	left: -2px;
-	box-shadow: 0px 0px 3px #AFAEAE; 
+	box-shadow: 0px 0px 3px #AFAEAE;
 }
+
 #slider #aboutme .top_am .text_am h2:before{
 	content: '';
-	border-color: transparent #29abe2 
+	border-color: transparent #a0cc78
                 transparent transparent;
 	border-style: solid;
 	border-width: 15px 12px 0px 15px;
@@ -361,9 +377,10 @@ header nav #card_menu ul li a{
  	top: 32px;
 	position: absolute;
 }
+
 #slider #aboutme .top_am .text_am h2:after{
 	content: '';
-	border-color: transparent #233D58 
+	border-color: transparent #207561
                 transparent transparent;
 	border-style: solid;
 	border-width: 0px 12px 10px 12px;
@@ -372,12 +389,14 @@ header nav #card_menu ul li a{
  	top: 46px;
 	position: absolute;
 }
+
 #slider #aboutme .top_am .text_am p{
 	margin: 5px 30px;
 	font-size: 0.8em;
 }
+
 #slider #aboutme .top_am .text_am span{
-	color: #29abe2;
+	color: #a0cc78;
 	cursor: pointer;
 }
 
@@ -387,6 +406,7 @@ header nav #card_menu ul li a{
 	display: block;
 	margin-top: 50px;
 }
+
 #slider #aboutme .bottom_am article{
 	width: 80%;
 	height: 200px;
@@ -397,11 +417,12 @@ header nav #card_menu ul li a{
 	position: relative;
 	overflow: hidden;
 }
+
 #slider #aboutme .bottom_am article .card_service{
 	width: 100%;
 	position: absolute;
 	background: white;
-	color: #29abe2;
+	color: #a0cc78;
 	text-decoration: none;
 	top: 66%;
 	height: 100%;
@@ -411,6 +432,7 @@ header nav #card_menu ul li a{
 	font-weight: lighter;
 	font-size: 0.8em;
 }
+
 #slider #aboutme .bottom_am .card_service:hover{
 	top: 0%;
 }
@@ -424,6 +446,7 @@ header nav #card_menu ul li a{
 	top: 5px;
 	right: 0px;
 }
+
 #slider #aboutme .bottom_am .card_service:hover:before{
 	-moz-transform: rotate(90deg);
 }
@@ -432,15 +455,18 @@ header nav #card_menu ul li a{
 	color: #AFAEAE;
 	margin-left: 20px;
 }
+
 #slider #aboutme .bottom_am .card_service h3 strong{
-	color: #29abe2;
+	color: #a0cc78;
 	display: block;
 }
+
 #slider #aboutme .bottom_am .card_service p{
 	color: black;
 	margin-left: 20px;
 	margin-top: 25px;
 }
+
 #slider #skills{
 	text-transform: uppercase;
 	font-family: 'aller';
@@ -456,10 +482,12 @@ header nav #card_menu ul li a{
 #slider #skills article{
 	margin-bottom: 30px;
 }
+
 #slider #skills #tecnicas,
 #slider #skills #personales{
 	width: 100%;
 }
+prev_section
 #slider #skills h2{
 	font-size: 1.3em;
 	margin-bottom: 30px;
@@ -494,7 +522,7 @@ header nav #card_menu ul li a{
 	vertical-align: top;
 }
 #slider #skills .skill .level{
-	background: #29abe2;
+	background: #a0cc78;
 }
 #slider #skills .skill .rest{
 	background: #D4D2D2;
@@ -541,7 +569,7 @@ header nav #card_menu ul li a{
 #slider #skills #conocimientos ul li:before{
 	font-family: 'icomoon';
 	content: "\e942";
-	color: #29abe2;
+	color: #a0cc78;
 	font-size: 3em;
 	position: absolute;
 	top: -13px;
@@ -564,7 +592,7 @@ header nav #card_menu ul li a{
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
-	border: 4px solid #29abe2;
+	border: 4px solid #a0cc78;
 	box-shadow: 0px 0px 2px #D4D2D2,
 				inset 0px 0px 2px #D4D2D2;
 	position: relative;
@@ -572,7 +600,7 @@ header nav #card_menu ul li a{
 #slider #skills #hobbies .hobby div:before{
 	font-family: 'icomoon';
 	font-size: 6em;
-	color: #29abe2;
+	color: #a0cc78;
 	position: relative;
 	top: -18px;
 	left: -15px;
@@ -628,7 +656,7 @@ header nav #card_menu ul li a{
 }
 #slider #portfolio #categorias h2{
 	margin: 5px 5px;
-	background: #29abe2;
+	background: #a0cc78;
 	color: black;
 	display: inline-block;
 	font-weight: lighter;
@@ -643,7 +671,7 @@ header nav #card_menu ul li a{
 	text-transform: uppercase;
 }
 #slider #portfolio #categorias h2:nth-of-type(1){
-	background: #29abe2;
+	background: #a0cc78;
 	color: white;
 }
 #slider #portfolio #jobs{
@@ -654,7 +682,7 @@ header nav #card_menu ul li a{
 #slider #portfolio #jobs article{
 	display: inline-block;
 	vertical-align: top;
-	background: #29abe2;
+	background: #a0cc78;
 	border-radius: 3px;
 	box-shadow: 0px 0px 3px #5A5A5A;
 	width: 200px;
@@ -723,7 +751,7 @@ header nav #card_menu ul li a{
 	width: 199px;
 	height: 200px;
 	margin: 0px;
-	padding: 0px;	
+	padding: 0px;
 }
 #slider #blog article .post_izq figure,
 #slider #blog article .post_izq img{
@@ -741,7 +769,7 @@ header nav #card_menu ul li a{
 	text-transform: uppercase;
 }
 #slider #blog article .post_text:hover{
-	background: #29abe2;
+	background: #a0cc78;
 	color: white;
 }
 #slider #blog article .post_text span{
@@ -888,7 +916,7 @@ footer p{
 		width: 30%;
 		margin:10px 1%;
 	}
-	
+
 	#slider #skills #hobbies .hobby p{
 		width: 30%;
 		left: 10%;
@@ -949,7 +977,7 @@ footer p{
 		display: inline-block;
 		border: none;
 		position: relative;
-		background: none; /*#29abe2;*/
+		background: none; /*#a0cc78;*/
 		top: 0px;
 		width: 100%;
 		text-align: right;
@@ -978,7 +1006,7 @@ footer p{
 		position: absolute;
 		border-radius: 50px;
 		right: 40px;
-		background: #29abe2;
+		background: #a0cc78;
 		width: 50px;
 		height: 50px;
 		overflow: visible;
@@ -1005,7 +1033,7 @@ footer p{
 		left: 100%;
 		margin-left: -400px;
 	}
-		
+
 	#slider #aboutme .top_am figure{
 		height: 243px;
 	}
@@ -1073,8 +1101,8 @@ footer p{
 	#slider #aboutme .bottom_am article{
 		width: 20%;
 		margin: 20px 0px;
-		margin-right: 6.1%; 
-		box-shadow: 0px 0px 3px #233D58
+		margin-right: 6.1%;
+		box-shadow: 0px 0px 3px #207561
 	}
 	#slider #aboutme .bottom_am article:nth-child(4){
 		margin-right: 0px;
@@ -1094,4 +1122,3 @@ footer p{
 		margin:10px 4%;
 	}
 }
-
