@@ -6,8 +6,8 @@ body {
 }
 
 canvas{
-  display:block;
-  vertical-align:bottom;
+   display:block;
+   vertical-align:bottom;
 }
 
 #particles-js{
@@ -15,15 +15,14 @@ canvas{
   height: 100%;
   background-color: #207561;
   background-image: url('');
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  background-repeat: no-repeat;
 }
-
 
 header{
 	height: 35px;
-	background: #207561;
+   background: #207561;
 	width: 100%;
 	position: relative;
 }
@@ -113,7 +112,6 @@ header nav #card_menu ul li a{
 	color: black;
 }
 
-
 #contact_button{
 	border-radius: 50%;
 	background: #da4302;
@@ -125,9 +123,11 @@ header nav #card_menu ul li a{
 	right: 10px;
 	z-index: 80;
 }
+
 #contact_button:hover{
 	cursor: pointer;
 }
+
 #contact_button:before{
 	font-family: "icomoon";
 	content: "\e925";
@@ -159,6 +159,7 @@ header nav #card_menu ul li a{
 	background: white;
 	/*padding-bottom: 20px;*/
 }
+
 #contact_form #close_form{
 	position: absolute;
 	top: 190px;
@@ -169,6 +170,7 @@ header nav #card_menu ul li a{
 #contact_form #close_form:hover{
 	cursor: pointer;
 }
+
 #contact_form #close_form:before{
 	font-family: "icomoon";
 	content: "\e923";
@@ -186,6 +188,7 @@ header nav #card_menu ul li a{
 	background: #a0cc78;
 	text-align: center;
 }
+
 #contact_form figure img{
 	margin: 0px;
 	height: 100%;
@@ -219,7 +222,7 @@ header nav #card_menu ul li a{
 }
 
 #slider{
-	width: 100%;
+   width: 100%;
 	position: relative;
 	top: 66px;
 	margin-top: -66px;
@@ -235,12 +238,12 @@ header nav #card_menu ul li a{
 #slider #home .mainanimation{
 	background: none;
 	min-height: 300px;
-	width: 80%;
+	width: 100%;
 	position: absolute;
-	margin-left: 10%;
 }
+
 #slider #home{
-	/*background: purple;*/
+	
 	font-family: "aller";
 	/*height: 85vh;*/
 	position: relative;
@@ -253,7 +256,7 @@ header nav #card_menu ul li a{
 	margin-left: 20vw;
 	/*max-width: 270px;*/
 	/*background: white;*/
-	min-height: 430px;
+	min-height: 330px;
 	position: relative;
 	background: rgba(35,61,88,0.8);
 	background: none;
@@ -272,13 +275,14 @@ header nav #card_menu ul li a{
 #slider #home .mainlogo strong{
 	font-family: "aldo";
 	font-size: 2em;
-	display: block;
+   text-align: center;
+   display: block;
 }
 
 #slider #home .mainlogo figure,
 #slider #home .mainlogo figure img{
-	width: 100%;
-	margin:0px;
+   width: 100%;
+	margin top: 0px;
 }
 
 #slider #home .mainlogo figure{
@@ -288,8 +292,7 @@ header nav #card_menu ul li a{
 }
 
 #slider #home .facepage{
-
-	/*background: yellow;*/
+   /*margin-top: 20%;*/
 }
 
 #slider #home .buttonspage{
